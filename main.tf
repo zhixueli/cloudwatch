@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "zhixue.terraform"
+    bucket = "bucket_name"
     key    = "cloudwatch/terraform.tfstate"
     region = "${var.region}"
   }

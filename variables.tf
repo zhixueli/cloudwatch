@@ -9,11 +9,11 @@ variable "instance_type" {
 }
 
 variable "alarms_email" {
-    default = "someone@bytedance.com"
+    default = "someone@contoso.com"
 }
 
 variable "alarms_phone" {
-    default = "+8613800000000"
+    default = "+123456789"
 }
 
 variable "ami" {
@@ -21,5 +21,5 @@ variable "ami" {
 }
 
 variable "keypair" {
-    default = "uw1-kp"
+    default = "key_pair_name"
 }
